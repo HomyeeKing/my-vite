@@ -1,9 +1,3 @@
 <template>
-    <div>sss</div>
+    <div>Test</div>
 </template>
-<script setup>
-    fetch('/rest/test',{
-        method:"POST"
-    }).then(res=>console.log(res))
-
-</script>

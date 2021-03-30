@@ -1,11 +1,12 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
+
   <Test  />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import Test from './components/Test.vue'
+import Test from '/src/components/Test.vue'
 
 export default defineComponent({
   name: 'App',
@@ -15,7 +16,7 @@ export default defineComponent({
 })
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

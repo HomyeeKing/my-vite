@@ -8,17 +8,12 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    root:'./test',
 	plugins: [vue()],
     resolve:{
         alias:{
             '@':path.resolve(__dirname,'src'),
             '~assets':path.resolve(__dirname,'src/assets')
         }
-    }
-    // server:{
-    //     proxy:{
-    //         '/rest':'http://localhost:1234'
-    //     }
-    // }
+    },
+
 });

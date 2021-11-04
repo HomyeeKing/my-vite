@@ -1,6 +1,6 @@
 <template>
     <img alt="Vue logo" src="./assets/logo.png" />
-    <span class="cursor-pointer hover:text-red" >sss</span>
+    <span class="cursor-pointer hover:text-red" >sss1</span>
     <Test />
 </template>
 

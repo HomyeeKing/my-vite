@@ -5,7 +5,6 @@
     "dev": "vite",
     "build": "vuedx-typecheck . && vite build",
     "serve": "vite preview",
-    "version": "git add .",
     "postversion": "git push"
   },
   "dependencies": {
